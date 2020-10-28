@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		1E318769253605D500D2FE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E318767253605D500D2FE09 /* Main.storyboard */; };
 		1E31876B253605D700D2FE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E31876A253605D700D2FE09 /* Assets.xcassets */; };
 		1E31876E253605D700D2FE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E31876C253605D700D2FE09 /* LaunchScreen.storyboard */; };
+		1E3187762536079600D2FE09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E3187752536079600D2FE09 /* GoogleService-Info.plist */; };
+		1E8A57F925454C6100F64D9B /* loginController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A57F825454C6100F64D9B /* loginController2.swift */; };
+		1E8A57FC2548E69300F64D9B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A57FB2548E69200F64D9B /* HomeController.swift */; };
+		D50A952B9A52D5E5F8242889 /* Pods_RaxuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412C7403A3EA18F67474891A /* Pods_RaxuApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		1E31876A253605D700D2FE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E31876D253605D700D2FE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E31876F253605D700D2FE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3187752536079600D2FE09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E8A57F825454C6100F64D9B /* loginController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController2.swift; sourceTree = "<group>"; };
+		1E8A57FB2548E69200F64D9B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		412C7403A3EA18F67474891A /* Pods_RaxuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaxuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1519320522EE12E7EC52D18 /* Pods-RaxuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaxuApp.release.xcconfig"; path = "Target Support Files/Pods-RaxuApp/Pods-RaxuApp.release.xcconfig"; sourceTree = "<group>"; };
+		FC787F4B3D8EEECB53C07CB4 /* Pods-RaxuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaxuApp.debug.xcconfig"; path = "Target Support Files/Pods-RaxuApp/Pods-RaxuApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50A952B9A52D5E5F8242889 /* Pods_RaxuApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				1E318760253605D500D2FE09 /* RaxuApp */,
 				1E31875F253605D500D2FE09 /* Products */,
+				CCDC5C39EAF6F8D339417CE8 /* Pods */,
+				4E304DEE5CEF6DF786420B21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,28 @@
 				1E31876A253605D700D2FE09 /* Assets.xcassets */,
 				1E31876C253605D700D2FE09 /* LaunchScreen.storyboard */,
 				1E31876F253605D700D2FE09 /* Info.plist */,
+				1E3187752536079600D2FE09 /* GoogleService-Info.plist */,
+				1E8A57F825454C6100F64D9B /* loginController2.swift */,
+				1E8A57FB2548E69200F64D9B /* HomeController.swift */,
 			);
 			path = RaxuApp;
+			sourceTree = "<group>";
+		};
+		4E304DEE5CEF6DF786420B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412C7403A3EA18F67474891A /* Pods_RaxuApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDC5C39EAF6F8D339417CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC787F4B3D8EEECB53C07CB4 /* Pods-RaxuApp.debug.xcconfig */,
+				E1519320522EE12E7EC52D18 /* Pods-RaxuApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E318772253605D700D2FE09 /* Build configuration list for PBXNativeTarget "RaxuApp" */;
 			buildPhases = (
+				307F7C5E102B174252F1B94E /* [CP] Check Pods Manifest.lock */,
 				1E31875A253605D500D2FE09 /* Sources */,
 				1E31875B253605D500D2FE09 /* Frameworks */,
 				1E31875C253605D500D2FE09 /* Resources */,
+				F34B3D262BA9F3FB7BC27819 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E31876E253605D700D2FE09 /* LaunchScreen.storyboard in Resources */,
+				1E3187762536079600D2FE09 /* GoogleService-Info.plist in Resources */,
 				1E31876B253605D700D2FE09 /* Assets.xcassets in Resources */,
 				1E318769253605D500D2FE09 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +169,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		307F7C5E102B174252F1B94E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaxuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34B3D262BA9F3FB7BC27819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RaxuApp/Pods-RaxuApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RaxuApp/Pods-RaxuApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RaxuApp/Pods-RaxuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E31875A253605D500D2FE09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8A57F925454C6100F64D9B /* loginController2.swift in Sources */,
 				1E318766253605D500D2FE09 /* ViewController.swift in Sources */,
 				1E318762253605D500D2FE09 /* AppDelegate.swift in Sources */,
 				1E318764253605D500D2FE09 /* SceneDelegate.swift in Sources */,
+				1E8A57FC2548E69300F64D9B /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +272,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +333,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,6 +364,7 @@
 		};
 		1E318773253605D700D2FE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC787F4B3D8EEECB53C07CB4 /* Pods-RaxuApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +383,7 @@
 		};
 		1E318774253605D700D2FE09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1519320522EE12E7EC52D18 /* Pods-RaxuApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
